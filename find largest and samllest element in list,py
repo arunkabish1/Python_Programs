@@ -1,0 +1,12 @@
+def smallestandlargest():
+    list1=[]
+    n=int(input("Enter the number of elements:"))
+    for i in range(0,n):
+        list1.append(int(input()))
+    print("Smallest element is:",min(list1))
+    print("Largest element is:",max(list1))
+    # or
+    list1.sort()
+    print("Smallest element is:",list1[0])
+    print("Largest element is:",list1[n-1])
+smallestandlargest()
